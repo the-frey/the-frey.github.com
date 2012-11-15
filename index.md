@@ -9,13 +9,9 @@ Hello, my name is Alex and I'm currently working on my first fully bespoke web a
 
 NB: This page is built using <a href="http://jekyllbootstrap.com/">Jekyll Bootstrap</a>. I've left in the intro below (bottom post) in case you're curious.
 
-## Posts.
+## Posts:
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+
 
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Canvass CMS and what it means for my next project"
 description: ""
 category: 
-tags: []
+tags: [CMS, PHP]
 ---
 {% include JB/setup %}
 
