@@ -11,7 +11,7 @@ NB: This page is built using <a href="http://jekyllbootstrap.com/">Jekyll Bootst
 
 ## Posts:
 
-<ul class="posts">
+<ul>
 {% for post in site.posts %}
 <li> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
