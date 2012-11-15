@@ -14,7 +14,7 @@ NB: This page is built using <a href="http://jekyllbootstrap.com/">Jekyll Bootst
 
 
 {% for post in site.posts %}
-{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+{{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 </ul>
 
