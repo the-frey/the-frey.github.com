@@ -11,7 +11,9 @@ NB: This page is built using <a href="http://jekyllbootstrap.com/">Jekyll Bootst
 
 ## Posts:
 
-&raquo; <a href="/2012/11/15/canvass-cms-and-what-it-means-for-my-next-project/">Canvass CMS and what it means for my next project</a>
+8 Nov 2012 &raquo; <a href="/2012/11/15/canvass-cms-and-what-it-means-for-my-next-project/">Canvass CMS and what it means for my next project</a>
+
+1 Nov 2012 &raquo; <a href="/2012/11/15/the-new-lit-and-phil-website/">The new Lit and Phil website</a>
 
 
 
