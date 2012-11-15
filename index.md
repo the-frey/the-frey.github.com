@@ -11,11 +11,8 @@ NB: This page is built using <a href="http://jekyllbootstrap.com/">Jekyll Bootst
 
 ## Posts:
 
+&raquo; <a href="/2012/11/15/canvass-cms-and-what-it-means-for-my-next-project/">Canvass CMS and what it means for my next project</a>
 
-
-{% for post in site.posts %}
-{{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-  {% endfor %}
 
 
 
