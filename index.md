@@ -9,6 +9,7 @@ Hello, my name is Alex and I'm currently working on my first fully bespoke web a
 
 <div id="rule"></div>
 
+
 ## Posts:
 
 15 Nov 2012 &raquo; <a href="/2012/11/15/the-horror-of-the-mvp-for-a-perfectionist/">The horror of the MVP for a perfectionist</a>
