@@ -1,6 +1,6 @@
 ---
 layout: page
-title: New Blog
+title: Alex Lynham
 tagline: One small step for a developer...
 ---
 {% include JB/setup %}
