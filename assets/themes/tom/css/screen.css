@@ -142,6 +142,10 @@ ul.posts {
         border: 0;
       }
 
+      h2 {
+        color:#464646;
+      }
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -199,3 +203,15 @@ ul.posts {
   .extra {
     visibility: hidden;
   }
+
+  p {
+    color:#464646;
+  }
+
+  #rule {
+  width:98.6%;
+  height: 2px;
+  background:#464646;
+  clear:both;
+  margin: 2px auto;
+}
