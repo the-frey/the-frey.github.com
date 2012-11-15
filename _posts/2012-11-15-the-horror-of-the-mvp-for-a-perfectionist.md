@@ -3,6 +3,6 @@ layout: post
 title: "The horror of the MVP for a perfectionist"
 description: ""
 category: 
-tags: []
+tags: [mvp, startup, creatorhub]
 ---
 {% include JB/setup %}
