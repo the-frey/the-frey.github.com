@@ -215,6 +215,7 @@ ul.posts {
   .title a {
     color:rgb(253,245,251);
     padding: 5px 10px;
+    font-size: 2em;
   }
 
   .title a:hover {
