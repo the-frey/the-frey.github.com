@@ -225,3 +225,6 @@ ul.posts {
     color:#520904;
   }
 
+  .rss {
+    visibility: hidden;
+  }
