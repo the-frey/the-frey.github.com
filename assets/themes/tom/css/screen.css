@@ -90,6 +90,7 @@ ul.posts {
 .title {
   color: #a00;
   font-weight: bold;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
