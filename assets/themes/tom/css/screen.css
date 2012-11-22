@@ -13,7 +13,7 @@
 
 @media screen and (min-width:960px){
   div.site {
-    width: 960px;
+    width: 800px;
     margin: 5px auto;
   }
 }
