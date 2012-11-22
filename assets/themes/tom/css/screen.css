@@ -14,28 +14,28 @@
 @media screen and (min-width:960px){
   div.site {
     width: 960px;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 }
 
 @media screen and (min-width:640px) and (max-width: 959px) {
   div.site {
     width:640px;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 }
 
 @media screen and (min-width:480px) and (max-width: 639px) {
   div.site {
     width:480px;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 }
 
 @media screen and (max-width:480px){
   div.site {
     width:320px;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 }
 
