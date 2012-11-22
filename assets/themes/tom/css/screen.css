@@ -75,6 +75,10 @@ a:visited {
   color: orange;
 }
 
+.title > a {
+  text-align: left;
+}
+
 table {
   font-size: inherit;
   font: 100%;
