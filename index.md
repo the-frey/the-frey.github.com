@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm currently working on my first fully bespoke web a
 
 ## Posts:
 
+25 Nov 2012 &raquo; <a href="/2012/11/25/first-use-of-stackoverflow/">First use of StackOverflow</a>
+
 23 Nov 2012 &raquo; <a href="/2012/11/23/learning-to-code-in-2012/">Learning to code in 2012</a>
 
 15 Nov 2012 &raquo; <a href="/2012/11/15/the-horror-of-the-mvp-for-a-perfectionist/">The horror of the MVP for a perfectionist</a>
