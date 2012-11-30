@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm currently working on my first fully bespoke web a
 
 ## Posts:
 
+30 Nov 2012 &raquo; <a href="/2012/11/30/canvass-v09/">Canvass v0.9</a>
+
 25 Nov 2012 &raquo; <a href="/2012/11/25/first-use-of-stackoverflow/">First use of StackOverflow</a>
 
 23 Nov 2012 &raquo; <a href="/2012/11/23/learning-to-code-in-2012/">Learning to code in 2012</a>
