@@ -5,10 +5,12 @@ tagline: One small step for a developer...
 ---
 {% include JB/setup %}
 
-Hello, my name is Alex and I'm currently working on my first fully bespoke web app. I also do all the sort of things you'd expect - PHP, jQuery, Wordpress etc., so I may blog about those projects from time to time as well. Basically this is a place away from the more 'client facing' blogs I keep elsewhere on music journalism and web work, somewhere where I can put more 'technical' project notes and that. Enjoy!
+Hello, my name is Alex and I'm a web developer. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/">here</a>. This is where I talk to myself about code.
 
 
 ## Posts:
+
+14 Feb 2013 &raquo; <a href="/2013/02/14/breaking-the-silence/">Breaking the silence</a>
 
 30 Nov 2012 &raquo; <a href="/2012/11/30/canvass-v09/">Canvass v0.9</a>
 
