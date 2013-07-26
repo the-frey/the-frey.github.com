@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a web developer. If you're looking for the music 
 
 ## Posts:
 
+14 Feb 2013 &raquo; <a href="/2013/07/26/recap-on-a-year-of-code/">Recap on a Year of Code</a>
+
 14 Feb 2013 &raquo; <a href="/2013/02/14/breaking-the-silence/">Breaking the silence</a>
 
 30 Nov 2012 &raquo; <a href="/2012/11/30/canvass-v09/">Canvass v0.9</a>
