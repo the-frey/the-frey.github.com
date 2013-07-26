@@ -7,7 +7,7 @@ tags: [programming, ux, learning]
 ---
 {% include JB/setup %}
 
-Well, it's now been almost exactly a year since I sat down in front of my laptop in a Wetherspoon's in Manchester and started to learn computer programming. So much has happened since then - including probably a noticeable degradation in both my eyesight an sanity - that now seemed like a good place to take stock. 
+Well, it's now been almost exactly a year since I sat down in front of my laptop in a Wetherspoon's in Manchester and started to learn computer programming. So much has happened since then - including probably a noticeable degradation in both my eyesight and sanity - that now seemed like a good place to take stock. 
 
 Firstly I guess is the question of what I have learned. Well, that's relatively easy to answer. The amount of things I've learned this past year has gone well beyond just programming; it's altered my daily routine, made me more confident, and perhaps as importantly as anything else, equipped me to carry on learning. 
 
