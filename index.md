@@ -10,7 +10,7 @@ Hello, my name is Alex and I'm a web developer. If you're looking for the music 
 
 ## Posts:
 
-22 Nov 2013 &raquo; <a href="/2014/01/07/ember-is-not-a-rails-killer/">Ember is not a Rails killer</a>
+7 Jan 2014 &raquo; <a href="/2014/01/07/ember-is-not-a-rails-killer/">Ember is not a Rails killer</a>
 
 22 Nov 2013 &raquo; <a href="/2013/11/22/the-new-malinko-ui/">The new Malinko UI</a>
 
