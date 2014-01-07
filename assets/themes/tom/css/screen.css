@@ -236,16 +236,17 @@ ul.posts {
   }
 
   .title {
-    background:#464646;
+    margin:10px 0;
+    /*background:#464646;
     -moz-border-radius:3px 3px 3px 3px;
     -o-border-radius:3px 3px 3px 3px;
     -webkit-border-radius:3px 3px 3px 3px;
-    border-radius:3px 3px 3px 3px;  
+    border-radius:3px 3px 3px 3px;*/
   }
 
   .title a {
-    color:rgb(253,245,251);
-    padding: 5px 10px;
+    color:#333;
+    /*padding: 5px 10px;*/
   }
 
   .title a:hover {
