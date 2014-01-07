@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Breaking the silence"
-description: ""
+description: "Despite the best of intentions, I don't exactly blog often"
 category: 
 tags: [php, rails, wordpress]
 ---

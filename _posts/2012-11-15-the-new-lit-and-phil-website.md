@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The new Lit and Phil website"
-description: ""
+description: "Designing an accessible website for predominantly older users is hard."
 category: 
 tags: [accessibility, wordpress, php, strategy]
 ---

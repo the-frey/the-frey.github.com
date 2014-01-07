@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recap on a Year of Code"
-description: "It's been a year, so it's time to take stock"
+description: "It's been a year now, so it's time to take stock"
 category: 
 tags: [programming, ux, learning]
 ---

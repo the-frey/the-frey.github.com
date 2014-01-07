@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The New Malinko UI"
-description: "Description of the new UI for the Malinko software"
+description: "A look back on the process of creating a new UI for the Malinko software application"
 category: 
 tags: []
 ---

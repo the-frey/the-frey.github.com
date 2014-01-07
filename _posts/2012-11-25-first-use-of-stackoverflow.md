@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Use of StackOverflow"
-description: ""
+description: "Stack Overflow is a true example of web greatness, here's a bit about my experience with it so far"
 category: 
 tags: [stackoverflow, help, rails]
 ---
