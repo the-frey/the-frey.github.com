@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Development Blog
-tagline: Notes on working for a startup in Manchester UK and various other projects.
+tagline: Notes on working for a startup in Manchester and various other projects.
 author :
   name : Alex Lynham
   email : acelynham@hotmail.com
