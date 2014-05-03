@@ -5,10 +5,12 @@ tagline: One small step for a developer...
 ---
 {% include JB/setup %}
 
-Hello, my name is Alex and I'm a web developer. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/">here</a>. This is where I talk to myself about code.
+Hello, my name is Alex and I'm a web developer. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code.
 
 
 ## Posts:
+
+3 May 2014 &raquo; <a href="/2014/05/03/a-yearish-at-the-coal-face/">A Year(ish) at the Coal Face</a>
 
 7 Jan 2014 &raquo; <a href="/2014/01/07/ember-is-not-a-rails-killer/">Ember is not a Rails killer</a>
 
