@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a web developer. If you're looking for the music 
 
 ## Posts:
 
+28 May 2014 &raquo; <a href="/2014/05/28/pricing-changes-at-ssd/">Pricing Changes at SSD</a>
+
 3 May 2014 &raquo; <a href="/2014/05/03/a-yearish-at-the-coal-face/">A Year(ish) at the Coal Face</a>
 
 7 Jan 2014 &raquo; <a href="/2014/01/07/ember-is-not-a-rails-killer/">Ember is not a Rails killer</a>
