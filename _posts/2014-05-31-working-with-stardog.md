@@ -74,6 +74,6 @@ Note, when issuing a request via `curl` to the Stardog HTTP API you will need to
 ## Known Issues as of v2.1.3
 
 1. When querying with a `DESCRIBE` after setting the all named graphs flag, no triples are returned - use a `CONSTRUCT` instead. This _will_ be fixed in later versions. 
-2. When uploading files of ~ >1MB to Stardog via the HTTP API you may find that they error with a status of 500. The `SD-Error-Code` specific headers [more info](http://docs.stardog.com/http/#sd-SPARQL-Protocol) should provide you with more info in case of error.
+2. When uploading files of ~ >1MB to Stardog via the HTTP API you may find that they error with a status of 500. The `SD-Error-Code` specific headers ([more info](http://docs.stardog.com/http/#sd-SPARQL-Protocol)) should provide you with more info in case of error.
 
 Most of this can, of course, be found in the Stardog docs, but it took me a while and a fair bit of digging to get cracking with the HTTP API and curl commands, so maybe this will be of some use to somebody. 
