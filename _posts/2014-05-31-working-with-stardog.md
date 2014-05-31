@@ -36,7 +36,7 @@ Note that the query endpoint is different from Fuseki's `/sparql` default.
 
 To make queries run by default against all named graphs, some configuration is needed. As Stardog says: 
 
-    for answering queries that don't specify a dataset (FROM or FROM NAMED), the SPARQL specification says that the query should be answered only using the default graph (no named graphs)
+for answering queries that don't specify a dataset (FROM or FROM NAMED), the SPARQL specification says that the query should be answered only using the default graph (no named graphs)
     
 Setting `query.all.graphs = true` in `stardog.properties` (see Setting up Logging below for more info on this file) will answer these queries using all the data in the database, "including the default graph and all named graphs."
 
