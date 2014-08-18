@@ -30,9 +30,7 @@ Except that this won't work well. There's a lot of reasons - and if you're think
 
 Luckily, I remembered that there was a script runner in monit. From the docs: 
 
-    Monit will execute the program periodically and if the exit status of the program does not match the expected result, Monit can perform an action[...] Monit [can be configured to] raise an alert if the exit value of [program] is different from 0. By convention, 0 means the program exited normally.
-
-    Program checks are asynchronous.
+"Monit will execute the program periodically and if the exit status of the program does not match the expected result, Monit can perform an action[...] Monit [can be configured to] raise an alert if the exit value of [program] is different from 0. By convention, 0 means the program exited normally. Program checks are asynchronous."
 
 That last part is key; it means that monitrc will continue evaluation and that I could test multiple docker containers every sixty seconds, even with a slow bash script that could fail. It actually ended up being so simple I didn't even need to specify a `timeout` directive in the `monitrc`, but more on that in a second... 
 
