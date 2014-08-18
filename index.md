@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a web developer. If you're looking for the music 
 
 ## Posts:
 
+18 Aug 2014 &raquo; <a href="/2014/08/18/monitoring-docker-containers-with-monit/">Monitoring Docker Containers With Monit</a>
+
 30 July 2014 &raquo; <a href="/2014/07/30/entering-a-running-docker-container/">Entering a Running Docker Container</a>
 
 31 May 2014 &raquo; <a href="/2014/05/31/working-with-stardog/">Working with the Stardog HTTP API</a>
