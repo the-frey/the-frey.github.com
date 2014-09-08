@@ -101,6 +101,10 @@ span.blue {
   color:#4096ae;
 }
 
+div.title a {
+  font-family:'Monaco', "Courier New", monospace; 
+}
+
 /*****************************************************************************/
 /*
 /* Home
