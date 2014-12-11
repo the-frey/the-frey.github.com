@@ -34,6 +34,7 @@ Anyway, getting started with overtone is super simple. You can follow along with
 
     lein new overtone-scratch
 
+Then, in the `project.clj` of the created project...
 
     (defproject overtone-scratch "0.1.0-SNAPSHOT"
 
