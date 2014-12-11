@@ -10,7 +10,7 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-11 December 2014 &raquo; <a href="/2014/12/11/clojure-for-rubyists-overtone-for-awesomeness/">Clojure for Rubyists, Overtone for Awesomeness</a>
+11 Dec 2014 &raquo; <a href="/2014/12/11/clojure-for-rubyists-overtone-for-awesomeness/">Clojure for Rubyists, Overtone for Awesomeness</a>
 
 18 Aug 2014 &raquo; <a href="/2014/08/18/monitoring-docker-containers-with-monit/">Monitoring Docker Containers With Monit</a>
 
