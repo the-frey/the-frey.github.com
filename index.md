@@ -5,10 +5,12 @@ tagline: One small step for a developer...
 ---
 {% include JB/setup %}
 
-Hello, my name is Alex and I'm a web developer. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code.
+Hello, my name is Alex and I'm a software engineer who mainly develops for the web. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code.
 
 
 ## Posts:
+
+11 December 2014 &raquo; <a href="/2014/12/11/clojure-for-rubyists-overtone-for-awesomeness/">Clojure for Rubyists, Overtone for Awesomeness</a>
 
 18 Aug 2014 &raquo; <a href="/2014/08/18/monitoring-docker-containers-with-monit/">Monitoring Docker Containers With Monit</a>
 
