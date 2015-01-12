@@ -10,7 +10,7 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-9 Jan 2015 &raquo; <a href="/2015/01/01/2014-recap/">2014 Recap</a> 
+9 Jan 2015 &raquo; <a href="/2015/01/09/2014-recap/">2014 Recap</a> 
 
 11 Dec 2014 &raquo; <a href="/2014/12/11/clojure-for-rubyists-overtone-for-awesomeness/">Clojure for Rubyists, Overtone for Awesomeness</a>
 
