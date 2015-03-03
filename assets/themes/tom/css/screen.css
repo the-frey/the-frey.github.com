@@ -105,6 +105,11 @@ div.title a {
   font-family:'Monaco', "Courier New", monospace; 
 }
 
+ul, ol {
+  color:#333;
+  margin-bottom:30px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
