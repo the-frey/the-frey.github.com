@@ -5,7 +5,7 @@ tagline: One small step for a developer...
 ---
 {% include JB/setup %}
 
-Hello, my name is Alex and I'm a software engineer who mainly develops for the web. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code.
+Hello, my name is Alex and I'm a software engineer who mainly develops for the web. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code, repairing guitars, and occasionally, moan about running a [small record label](http://superstardestroyer.co.uk).
 
 
 ## Posts:
