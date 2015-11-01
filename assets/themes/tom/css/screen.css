@@ -169,6 +169,10 @@ ul.posts {
     color: #aaa;
   }
 
+  .site img {
+    width:800px;
+  }
+
   .site .footer {
     font-size: 80%;
     color: #666;
