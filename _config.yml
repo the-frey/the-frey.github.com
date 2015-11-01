@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Blog
+title : blog
 tagline: Notes on working for a startup in Manchester and various other projects.
 author :
   name : Alex Lynham
