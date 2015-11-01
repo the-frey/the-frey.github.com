@@ -17,7 +17,7 @@ So home I scurried, clutching a pack of 7-string D'Addarios with a 60 on the low
 
 Except this now meant the string was too slack; after some stretching, it did at least settle to a consistent tuning, and you could _kind of_ get a correct octave between the two strings at the twelfth fret, but it was not good. I had always assumed my pride-and-joy weirdo E series 85 MIJ Squier was a 25.5 but some time with a tape measure revealed that it was more like a Gibson 24 3/4 scale length, explaining to some degree the added pain I was having tuning so low.
 
-![My 85 Squier](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/squier.JPG)
+![My 85 Squier](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/squier.jpg)
 
 Returning to the guitar shop revealed that they had no 8-string strings in stock, and my friend Andy who works for Roland and plays a baritone told me that the Ernie Ball set I'd heard about wasn't produced any longer. There were plenty of reviews and videos on the internet that relied on heavier gauges, so I knew they must be out there. 
 
