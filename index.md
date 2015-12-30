@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+30 Dec 2015 &raquo; <a href="/2015/12/30/working-with-localstorage-and-javascript-objects/">Working with LocalStorage and JavaScript objects</a>
+
 1 Nov 2015 &raquo; <a href="/2015/11/01/replacing-and-insulating-a-jazzmaster-pickguard/">Replacing and insulating a Jazzmaster pickguard</a>
 
 1 Nov 2015 &raquo; <a href="/2015/11/01/tuning-a-6-string-to-drop-a-and-repairing-a-broken-nut/">Tuning a 6 String to Drop A and repairing a broken nut</a>
