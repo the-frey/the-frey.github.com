@@ -30,7 +30,7 @@ In the example above, we might:
            (:status (test-request "/search" search-routes))))))
 ```
 
-However, you're quickly going to end up coming to grief on using things like query params, which if you're say, accessing ElasticSearch via a GET request, you're likely to have. In the above example, calling the route with a URL like `` will cause a `nil` to be returned. Sad times.
+However, you're quickly going to end up coming to grief on using things like query params, which if you're say, accessing ElasticSearch via a GET request, you're likely to have. In the above example, calling the route with a URL like `/search?postcode=M11EZ` will cause a `nil` to be returned. Sad times.
 
 Let's say, for example, that we want to pass a postcode (Zip code, if you prefer). Assuming we have something to unpack the query string and call ElasticSearch using that clause in our `search-handler` method above, we should be able to query.
 
