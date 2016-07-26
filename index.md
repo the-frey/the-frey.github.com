@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+26 July 2016 &raquo; <a href="/2016/07/26/testing-routes-with-luminus-and-compojure">Testing Routes with Luminus and Compojure</a>
+
 5 Jun 2016 &raquo; <a href="/2016/06/05/exploring-dsp-with-spin-fv-1">Exploring DSP with Spin FV-1</a>
 
 30 Dec 2015 &raquo; <a href="/2015/12/30/working-with-localstorage-and-javascript-objects">Working with LocalStorage and JavaScript objects</a>
