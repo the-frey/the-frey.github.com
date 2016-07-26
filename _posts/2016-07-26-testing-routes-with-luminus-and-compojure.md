@@ -7,6 +7,10 @@ tags: [clojure,luminus,testing]
 ---
 {% include JB/setup %}
 
+I've recently been trying to integration test an ElasticSearch-based web stack in clojure and had a bit of trouble working out how to make my life easier by requesting strings and getting Luminus/Compojure/Liberator to behave exactly as in a browser request cycle. This is pretty basic stuff, I'm sure, but searching for a quick explanation of which methods to use turned up zilch. In particular, testing GET requests with query params against Compojure/Liberator didn't really seem to be covered other than as an assumption that you would already know how to do it. It's official, I'm boooooooooring!
+
+TL;DR - skip to the example at the bottom for the code.
+
 Let's assume in a namespace like `your-app.web.routes.search` you have:
 
 ```
@@ -32,7 +36,7 @@ In the example above, we might:
 
 However, you're quickly going to end up coming to grief on using things like query params, which if you're say, accessing ElasticSearch via a GET request, you're likely to have. In the above example, calling the route with a URL like `/search?postcode=M11EZ` will cause a `nil` to be returned. Sad times.
 
-Let's say, for example, that we want to pass a postcode (Zip code, if you prefer). Assuming we have something to unpack the query string and call ElasticSearch using that clause in our `search-handler` method above, we should be able to query.
+Let's say, as in the example above, that we want to pass a postcode (Zip code, if you prefer). Assuming we have something to unpack the query string and call ElasticSearch using that clause in our `search-handler` method above, we should be able to query.
 
 For sanity, I'm going to represent postcodes without the customary space in the middle. Sorry, pedants.
 
