@@ -7,7 +7,7 @@ tags: [clojure,liberator,compojure]
 ---
 {% include JB/setup %}
 
-TL;DR - **Liberator resources are constructed from hashmaps, so an alternative to using `defresource` macros is to assemble your resources by merging composable hashmaps together at the latest possible moment. This also makes testing easier to reason about.**
+TL;DR - **Liberator resources are constructed from hashmaps, so an alternative to using `defresource` macros is to assemble your resources by merging composable hashmaps together at the last possible moment. This also makes testing easier to reason about.**
 
 Okay, so recently I've been working with [Liberator](https://clojure-liberator.github.io/liberator) (in the context of Luminus's default structure) to handle HTTP and content negotiation for the application. There's a couple of patterns for creating resources - `resource` and the `defresource` macro, and I'm going to step through some examples from the docs while showing the pattern that has ended up working best for us so far.
 
@@ -44,11 +44,12 @@ Okay, so let's say we have a second resource that takes the same defaults but ha
   :handle-ok "Hello, world!")
 
 ;; we're getting a resource with an :id, so it may not exist
-;; :exists? allows you to return a hash to be added to ctx - so we are adding in, say some extra info about the user
+;; :exists? allows you to return a hash to be added to ctx
+;; so we are adding in, say some extra info about the user
 (defresource user-resource hello-world-defaults
   :exists? (fn [ctx]
               (let [user-id (:id (:params (:request ctx)))
-                    associated-users (get-associated-users user-id)] ;; let's say this function is defined elsewhere
+                    associated-users (get-associated-users user-id)] ;; defined elsewhere
               {:associated-users associated-users}))
   :handle-ok (fn [ctx]
               (render-user-resource ctx))) ;; let's say we have a render function elsewhere
@@ -69,7 +70,7 @@ So, here's where it becomes a matter of taste. If we want to replicate this beha
 (def user-resource-defaults
   (merge {:exists? (fn [ctx]
                       (let [user-id (:id (:params (:request ctx)))
-                            associated-users (get-associated-users user-id)] ;; let's say this function is defined elsewhere
+                            associated-users (get-associated-users user-id)]
                         {:associated-users associated-users}))
           :handle-ok (fn [ctx]
                         (render-user-resource ctx))}
@@ -95,7 +96,7 @@ Except that now, we don't really need the named `defresource` do we?
 (def user-resource-map
   (merge {:exists? (fn [ctx]
                       (let [user-id (:id (:params (:request ctx)))
-                            associated-users (get-associated-users user-id)] ;; let's say this function is defined elsewhere
+                            associated-users (get-associated-users user-id)]
                         {:associated-users associated-users}))
           :handle-ok (fn [ctx]
                         (render-user-resource ctx))}
