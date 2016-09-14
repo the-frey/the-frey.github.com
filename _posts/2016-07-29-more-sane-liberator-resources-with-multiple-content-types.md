@@ -100,18 +100,12 @@ Except that now, we don't really need the named `defresource` do we?
                         {:associated-users associated-users}))
           :handle-ok (fn [ctx]
                         (render-user-resource ctx))}
-         hello-world-defaults))
-
-(defresource hello-world hello-world-defaults
-  :handle-ok "Hello, world!")
-
-;; we're getting a resource with an :id, so it may not exist
-(defresource user-resource user-resource-defaults)
+          hello-world-map))
 
 (defroutes my-app
-  (ANY "/" [] (resource user-resource-map))
-  (ANY "/user/:id" [] (resource (merge hello-world-map
-                                       {:handle-ok "Hello, world!"}))))
+  (ANY "/" [] (resource (merge hello-world-map
+                               {:handle-ok "Hello, world!"})))
+  (ANY "/user/:id" [] (resource user-resource-map))))
 ```
 
 This also has the added bonus that we can use the following incantation to create a working resource in tests, merging in maps of other options that we may need:

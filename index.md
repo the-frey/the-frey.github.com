@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+14 Sept 2016 &raquo; <a href="/2016/09/14/composable-liberator-resources">Composable Liberator Resources</a>
+
 29 July 2016 &raquo; <a href="/2016/07/29/more-sane-liberator-resources-with-multiple-content-types">More sane Liberator resources with multiple content types</a>
 
 26 July 2016 &raquo; <a href="/2016/07/26/testing-routes-with-luminus-and-compojure">Testing Routes with Luminus and Compojure</a>
