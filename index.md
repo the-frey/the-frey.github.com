@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+1 Feb 2017 &raquo; <a href="/2017/02/01/clojurescript-and-re-frame">Clojurescript and Re-Frame</a>
+
 14 Sept 2016 &raquo; <a href="/2016/09/14/composable-liberator-resources">Composable Liberator Resources</a>
 
 29 July 2016 &raquo; <a href="/2016/07/29/more-sane-liberator-resources-with-multiple-content-types">More sane Liberator resources with multiple content types</a>
