@@ -24,7 +24,7 @@ After building this, I would say that I'm likely to use re-frame again. For bala
 - Everything has a place; one of my favourite things about frameworks is having a reliable structure. In particular, by using a Luminus template everything kind of had its right place without some of the 'magic' you get in full-blown frameworks.
 - How the API gives a consistent flow to event management, which I've found actually does reduce mental overhead. It might not be as low overhead as vanilla JS but it certainly isn't the headache it could be.
 - How easy it is to adapt to your specific use case and the shape of your API, while staying relatively terse and idiomatic.
-- The interaction between the server and front-end via AJAX is more painless than other frameworks I've tried. It seems to hit a good middle ground 
+- The interaction between the server and front-end via AJAX is more painless than other frameworks I've tried. It seems to hit a good middle ground between having an established way of dealing with state and events and letting you do your own thing with managing that state (via DB or user interaction or sever calls or what have you).
 - Clojurescript quickly has won me around - developing with it feels better than Javascript or Coffeescript, certainly.
 - You don't need jQuery for DOM manipulation (I know this is obvious, but worth repeating).
 - The hot reloading and workflow with figwheel is quick and solid, especially if you're already used to some combination of emacs, cider and mount, say.
