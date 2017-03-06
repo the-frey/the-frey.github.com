@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pulling from a private GitHub repo within a Travis build"
-description: ""
+description: "I've had to do this recently, so this is at least partly an aide-memoire."
 category: 
 tags: [travis,devops,ci]
 ---
