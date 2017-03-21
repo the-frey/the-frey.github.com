@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+21 Mar 2017 &raquo; <a href="/2017/03/21/specifying-port-for-ring-server-in-uberjar">Specifying a port for a Ring server in an Uberjar</a>
+
 6 Mar 2017 &raquo; <a href="/2017/03/06/pulling-from-a-private-github-repo-within-a-travis-build">Pulling from a private GitHub repo within a Travis build</a>
 
 1 Feb 2017 &raquo; <a href="/2017/02/01/clojurescript-and-re-frame">Clojurescript and Re-Frame</a>
