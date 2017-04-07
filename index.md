@@ -10,7 +10,7 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-21 Mar 2017 &raquo; <a href="/2017/04/07/mock-ring-requests">Mock ring requests</a>
+7 Apr 2017 &raquo; <a href="/2017/04/07/mock-ring-requests">Mock ring requests</a>
 
 21 Mar 2017 &raquo; <a href="/2017/03/21/specifying-port-for-ring-server-in-uberjar">Specifying a port for a Ring server in an Uberjar</a>
 
