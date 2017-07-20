@@ -26,7 +26,7 @@ So. That's the path.
 
 ## Why do it?
 
-Really? Pedals are cool. I've spent my whole adult life playing guitar and obsessing over effects and it's only natural to want to both know how they work and contribute my own tiny little ripple to the great Gear Ocean. One of my many gigs is writing for Total Guitar (and Music Radar online) and this has had a nice synergy with that too - I can now attack a lot of gear with a screwdriver and get a pretty good idea of what's going on inside. The pedals has definitely led to a lot more work in that area, and since that's basically my dream job since I was about thirteen years old, that's already a pretty sweet outcome.
+Really? Pedals are cool. I've spent my whole adult life playing guitar and obsessing over effects and it's only natural to want to both know how they work and contribute my own tiny little ripple to the great Gear Ocean. One of my many gigs is writing for Total Guitar (and Music Radar online) and this has had a nice synergy with that too - I can now attack a lot of gear with a screwdriver and get a pretty good idea of what's going on inside. The pedals have definitely led to a lot more work in that area, and since that's basically been my dream job since I was about thirteen years old, that's already a pretty sweet outcome.
 
 The real catalyst though was when on a whim I started a video blog/YouTube channel where I started demoing a bunch of the pedals I'd collected over the years. Although it hardly exploded in popularity, I soon realised I wasn't mega interested in just demoing other peoples' stuff, but was rather more interested in making it myself.
 
