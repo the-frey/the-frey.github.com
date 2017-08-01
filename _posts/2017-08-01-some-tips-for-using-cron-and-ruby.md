@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some tips for using Cron and Ruby"
-description: ""
+description: "I've been automating some ruby devops scripts lately, and debugging them is a massive pain..."
 category: 
 tags: [cron,ruby,devops]
 ---
