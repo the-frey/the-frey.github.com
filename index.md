@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+19 Sep 2017 &raquo; <a href="/2017/09/19/setting-up-a-zsh-terminal-with-agnoster--on-osx-sierra">Setting up a zsh terminal with agnoster on OSX Sierra</a>
+
 05 Sep 2017 &raquo; <a href="/2017/09/05/the-go-booster">The Go! Booster is now open-source</a>
 
 08 Aug 2017 &raquo; <a href="/2017/08/08/debugging-with-emacs-and-cider">Debugging with Emacs and CIDER</a>
