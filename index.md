@@ -10,9 +10,15 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-19 Sep 2017 &raquo; <a href="/2017/11/12/datachain">The Datachain project</a>
+12 Nov 2017 &raquo; <a href="/2017/11/12/datachain">The Datachain project</a>
 
-19 Sep 2017 &raquo; <a href="/2017/09/19/setting-up-a-zsh-terminal-with-agnoster--on-osx-sierra">Setting up a zsh terminal with agnoster on OSX Sierra</a>
+03 Oct 2017 &raquo; <a href="/2017/10/03/graphql-list-queries">GraphQL list queries</a>
+
+28 Sep 2017 &raquo; <a href="/2017/09/28/setting-java-arguments-for-lein-repl">Setting java arguments for lein repl</a>
+
+27 Sep 2017 &raquo; <a href="/2017/09/27/first-steps-with-graphql">First steps with GraphQL</a>
+
+19 Sep 2017 &raquo; <a href="/2017/09/19/setting-up-a-zsh-terminal-with-agnoster-on-osx-sierra">Setting up a zsh terminal with agnoster on OSX Sierra</a>
 
 05 Sep 2017 &raquo; <a href="/2017/09/05/the-go-booster">The Go! Booster is now open-source</a>
 
