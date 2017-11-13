@@ -13,4 +13,4 @@ In the data world for some time there's been interested buzz around the use of b
 
 I suppose somewhat naturally for somebody that's got used to an immutable, functional world and likes idempotent operations, I've been kicking the tires on blockchain tech for a little while and trying to work out where it might fit into the linked/graph/open data world that I'm used to.
 
-I've decided that wherever this will lead, it's going to be held over at [datachain.uk](http://datachain.uk), and although it's a placeholder for now, hopefully the outline of this project will become clear soon.
+I've decided that wherever this will lead, it's going to be held over at [datachain.org.uk](http://datachain.org.uk), and although it's a placeholder for now, hopefully the outline of this project will become clear soon.
