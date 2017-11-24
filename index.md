@@ -14,8 +14,6 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 24 Nov 2017 &raquo; <a href="/2017/11/24/reprojecting-from-osgb-to-wgs84-using-ogr2ogr">Reprojecting from OSGB to WGS84 using OGR2OGR</a>
 
-24 Nov 2017 &raquo; <a href="/2017/11/24/reprojecting-from-osgb-to-wgs84-using-ogr2ogr">Reprojecting from OSGB to WGS84 using OGR2OGR</a>
-
 12 Nov 2017 &raquo; <a href="/2017/11/12/datachain">The Datachain project</a>
 
 03 Oct 2017 &raquo; <a href="/2017/10/03/graphql-list-queries">GraphQL list queries</a>
