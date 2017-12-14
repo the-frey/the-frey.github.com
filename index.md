@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+14 Dec 2017 &raquo; <a href="/2017/12/14/indexing-uk-output-areas-in-elasticsearch">Indexing UK Output Areas in Elasticsearch</a>
+
 14 Dec 2017 &raquo; <a href="/2017/12/14/compojure-and-integrant">Compojure and Integrant</a>
 
 05 Dec 2017 &raquo; <a href="/2017/12/05/splitting-up-uk-ons-geoportal-data-into-geojson-boundary-files">Splitting up UK ONS Geoportal Data into GeoJSON Boundary Files</a>
