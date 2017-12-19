@@ -75,4 +75,5 @@ user=> (halt) ;; to stop
 Huzzah!
 
 [1] Okay, before releating this I would probably put all this logic in `my-compojure-api-app.core` and include only that, but this is a limited example I'm using.
+
 [2] You have to make sure you don't start Jetty in the foreground or it will block and lock up your repl.
