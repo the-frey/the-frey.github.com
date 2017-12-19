@@ -33,3 +33,5 @@ Finally, if you want to manually be able to reference your system and start and 
 <script src="https://gist.github.com/the-frey/812c91c91dbd82129bf7ee131b3dda03.js"></script>
 
 I'll hopefully do a post soon on how to prep this for production use.
+
+Update: I've added some notes on getting integrant-repl set up for dev <a href="/2017/12/18/integrating-integrant-repl-with-an-existing-compojure-project">here</a>.
