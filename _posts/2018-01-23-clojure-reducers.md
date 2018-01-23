@@ -18,3 +18,9 @@ Bringing in reducers is simple:
 Then switching out `(into [])` for `foldcat` is trivial:
 
 <script src="https://gist.github.com/the-frey/cbd47ab6e3b576292115145eb8aafaef.js"></script>
+
+Finally, you can see how we could then look up the member associated with the transaction:
+
+<script src="https://gist.github.com/the-frey/c23eaed5991c55935d41e150e6e9af54.js"></script>
+
+This is a very contrived code example, and probably needs a refactor, but you get the idea.
