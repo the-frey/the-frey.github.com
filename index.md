@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+23 Jan 2018 &raquo; <a href="/2018/01/23/clojure-reducers">Clojure reducers</a>
+
 18 Dec 2017 &raquo; <a href="/2017/12/18/integrating-integrant-repl-with-an-existing-compojure-project">Integrating Integrant repl with an existing Compojure project</a>
 
 14 Dec 2017 &raquo; <a href="/2017/12/14/indexing-uk-output-areas-in-elasticsearch">Indexing UK Output Areas in Elasticsearch</a>
