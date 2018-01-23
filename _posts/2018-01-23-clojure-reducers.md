@@ -24,3 +24,7 @@ Finally, you can see how we could then look up the member associated with the tr
 <script src="https://gist.github.com/the-frey/c23eaed5991c55935d41e150e6e9af54.js"></script>
 
 This is a very contrived code example, and probably needs a refactor, but you get the idea.
+
+Update: when I presented this, it occurred to me that I'd been a naughty boy by not parameterizing the inputs to the function, so:
+
+<script src="https://gist.github.com/the-frey/d37ac21071bc7ad99b4b99e08d839a0a.js"></script>
