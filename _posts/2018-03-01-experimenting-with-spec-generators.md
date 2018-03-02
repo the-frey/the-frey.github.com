@@ -31,4 +31,10 @@ This will generate (I think) ten by default. You can increase the number quite s
 
     (gen/sample (s/gen ::person) 20)
 
+### UPDATE
+
+So, after some discussions on `r/clojure` here's the proper way of generating a uuid. Turns out it was built in after all.
+
+<script src="https://gist.github.com/the-frey/8e2b2331ed1df1ee304a5cb06e87cd1d.js"></script>
+
 
