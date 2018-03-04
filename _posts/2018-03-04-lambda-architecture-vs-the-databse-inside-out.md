@@ -9,6 +9,8 @@ tags: [architecture,devops,data]
 
 # Lambda vs Kappa Architecture
 
+**TL;DR** _- do you conceptually treat your organisation like a program, or like a database?_
+
 Earlier this week, I went to the AWS Builder's Day in Manchester and followed the lambda track.
 
 First off - if you get the chance to go to one of these events, I'd recommend it. Even if you're not exclusively or extensively using AWS services it's a great taster of what's happening out there at the cutting-edge of Infrastructure-as-a-service, and provocative in terms of giving you the time and space to think about what lessons you can apply to your own architecture and tooling choices.
