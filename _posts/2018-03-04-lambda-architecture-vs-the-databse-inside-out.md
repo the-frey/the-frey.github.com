@@ -7,11 +7,17 @@ tags: [architecture,devops,data]
 ---
 {% include JB/setup %}
 
+# Lambda vs Kappa Architecture
+
 Earlier this week, I went to the AWS Builder's Day in Manchester and followed the lambda track.
 
 First off - if you get the chance to go to one of these events, I'd recommend it. Even if you're not exclusively or extensively using AWS services it's a great taster of what's happening out there at the cutting-edge of Infrastructure-as-a-service, and provocative in terms of giving you the time and space to think about what lessons you can apply to your own architecture and tooling choices.
 
 Either way, here are some thoughts based on the notes that I scribbled.
+
+A lot of it has to do with two broad trends in architecture, and particularly high-volume data architecture. I may call it something different, but we're I suppose talking about the Lambda vs Kappa[1] patterns in some way, shape or form.
+
+In this blogpost, I'll generally refer to the _Kappa_ pattern as _The Database Inside Out_, chiefly so I can contrast with the model of an abstract computer program.
 
 ## The Database Inside Out
 
@@ -30,7 +36,7 @@ Meanwhile, over in AWS-land:
 
 This is interesting, because when you add AWS Lambda (anonymous functions) Kinesis, SQS/SNS (queues, or lists) Dynamo DB (sort of like a meta hash table), Step Functions (state machines) together, you basically have all the standard library of a programming language, and a strong steer towards architecting in a more functional style.
 
-To borrow some ideas from Rich Hickey (go and watch _The Language of the System_, if you haven't already), if you're already treating data as the first class citizen of your system it should be, and thinking about things like schemas, validation, evolving definitions, versioning, micro- or nano-services, then neither _The Database Inside Out_[1] nor _The Lambda Architecture_ should be counter-intuitive as architectural patterns.
+To borrow some ideas from Rich Hickey (go and watch _The Language of the System_, if you haven't already), if you're already treating data as the first class citizen of your system it should be, and thinking about things like schemas, validation, evolving definitions, versioning, micro- or nano-services, then neither _The Database Inside Out_ nor _The Lambda Architecture_ should be counter-intuitive as architectural patterns.
 
 However, getting back on track, what the AWS-flavour of Lambda amounts to, so far as I can see, is **treating your organisation like a program**, which is perhaps an even greater level of abstraction than that already conceptually presented by Kleppmann and co.
 
