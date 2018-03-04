@@ -23,9 +23,9 @@ In this blogpost, I'll generally refer to the _Kappa_ pattern as _The Database I
 
 In the area of large-scale data systems, which is ostensibly the general area in which I work these days, I think the most compelling writing on modern distributed data architectures that I've seen is probably that outlined in Martin Kleppmann's excellent book _Designing Data Intensive Applications_. Although the book itself covers a lot of diverse topics, his approach to thinking about the systems in an organisation fits a pattern roughly described in one of his conference talks that I'm going to coin _The Database Inside Out_.
 
-Essentially, this means conceptually treating your organisation like a **single, abstract, conceptual database**.
+Essentially, this means conceptually treating your organisation like a **single, abstract database**.
 
-This is based around the notion that if you're using a persistent log to integrate and hydrate data systems at the core of your architecture then you're taking a structure based on the transaction log of a database and using it as an abstraction. Taking this abstraction to its logical conclusion means that indeed your organisation can be considered as a database, its operational and analytic data stores as derived data views, and any data-at-rest or persistence to an underlying file system as the persistence mechanism; with of course the caveat that theoretically infinite logs and Change Data Capture can mean your streaming platform can also be your persistence layer.
+This is based around the notion that if you're using a persistent log to integrate and hydrate data systems at the core of your architecture then you're taking a component based on the transaction log of a database and using it as an abstraction. Taking this abstraction to its logical conclusion means that indeed your organisation can be considered as a database, its operational and analytic data stores as derived data views, and any data-at-rest or persistence to an underlying file system as the persistence mechanism; with of course the caveat that theoretically infinite logs and Change Data Capture can mean your streaming platform can also be your persistence layer.
 
 ## The Lambda Architecture
 
@@ -34,9 +34,15 @@ Meanwhile, over in AWS-land:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Interesting that so much of AWS&#39; newer tooling is around foundational CS concepts like lists/queues, state machines and lambdas <a href="https://twitter.com/hashtag/buildonaws?src=hash&amp;ref_src=twsrc%5Etfw">#buildonaws</a></p>&mdash; Alex Lynham (@hipsters_unite) <a href="https://twitter.com/hipsters_unite/status/968515771222626304?ref_src=twsrc%5Etfw">February 27, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This is interesting, because when you add AWS Lambda (anonymous functions) Kinesis, SQS/SNS (queues, or lists) Dynamo DB (sort of like a meta hash table), Step Functions (state machines) together, you basically have all the standard library of a programming language, and a strong steer towards architecting in a more functional style.
+This is interesting, because when you add AWS Lambda (anonymous functions) Kinesis, SQS/SNS (queues, or lists) Dynamo DB (sort of like a meta hash table), Step Functions (state machines) together, you basically have all the standard library of a simple programming language, and a strong steer towards architecting in a more functional style.
 
-To borrow some ideas from Rich Hickey (go and watch _The Language of the System_, if you haven't already), if you're already treating data as the first class citizen of your system it should be, and thinking about things like schemas, validation, evolving definitions, versioning, micro- or nano-services, then neither _The Database Inside Out_ nor _The Lambda Architecture_ should be counter-intuitive as architectural patterns.
+To borrow some ideas from Rich Hickey (go and watch _The Language of the System_, if you haven't already), if you're already treating data as the first class citizen of your system it should be, and thinking about things like schemas, validation, evolving definitions, versioning, micro- or nano-services, then neither _The Database Inside Out_ nor _The Lambda Architecture_ should be counter-intuitive as architectural patterns. 
+
+Your primary concern should be about the flow of data in your organisation, and a pragmatic coupling that allows for rapid development both of new components and products and of replacements for worn out products or components.
+
+By reifying abstract data flows and making sure they are not tied to runtime or use-specific representations at a system-wide level, we can build distributed systems with a much more plug-and-play feel, and this is common to both the _Lambda_ and _Kappa_ patterns.
+
+The difference boils down to implementation details - are you running microservices on virtual instances, containers or bare metal, or are you running hooks provided by vendor tooling? Both require you to have a strong handle on the interfaces in your system where data passes between components.
 
 However, getting back on track, what the AWS-flavour of Lambda amounts to, so far as I can see, is **treating your organisation like a program**, which is perhaps an even greater level of abstraction than that already conceptually presented by Kleppmann and co.
 
