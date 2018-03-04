@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+04 Mar 2018 &raquo; <a href="/2018/03/04/lambda-architecture-vs-the-databse-inside-out">Lambda Architecture vs The Database Inside Out</a>
+
 01 Mar 2018 &raquo; <a href="/2018/03/01/experimenting-with-spec-generators">Experimenting with Spec Generators</a>
 
 23 Jan 2018 &raquo; <a href="/2018/01/23/clojure-reducers">Clojure reducers</a>
