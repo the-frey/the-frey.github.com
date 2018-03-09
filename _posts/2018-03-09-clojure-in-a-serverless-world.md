@@ -11,7 +11,8 @@ I'm not going to present anything here as my original thought when it's not, but
 
 After thinking through the implications of Serverless/Lambda, I asked the following question on [r/Clojure](https://www.reddit.com/r/Clojure/comments/82tqzw/discussion_place_of_clojure_in_a_world_of/):
 
-<span class='code'>
+<div class='code'>
+
   Genuinely interested here as I was at an AWS builder's day last week and the tooling is very nodejs focussed (and python I guess) so far as I can tell. Start up and warm up costs for the jvm too. Plus:
 
   1) a lot of best practice in clojure land becomes implicit when you have to separate out front and backend because of using e.g. lambda to serve an API endpoint 
@@ -24,7 +25,8 @@ After thinking through the implications of Serverless/Lambda, I asked the follow
   UPDATE:
 
   When I say the serverless framework as opposed to pattern, I specifically mean this abstraction framework.
-</span>
+
+</div>
 
 The serverless framework I referred to was [this one](https://github.com/serverless/serverless), FWIW.
 
