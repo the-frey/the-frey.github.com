@@ -10,7 +10,11 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-04 Mar 2018 &raquo; <a href="/2018/03/04/lambda-architecture-vs-the-databse-inside-out">Lambda Architecture vs The Database Inside Out</a>
+09 Mar 2018 &raquo; <a href="/2018/03/09/clojure-in-a-serverless-world">Clojure in a Serverless World</a>
+
+04 Mar 2018 &raquo; <a href="/2018/03/04/zen-and-the-art-of-tube-amp-maintenance">Zen and the Art of Tube Amp Maintenance</a>
+
+04 Mar 2018 &raquo; <a href="/2018/03/04/lambda-architecture-vs-the-databse-inside-out">Lambda/Serverless Architecture vs The Database Inside Out</a>
 
 01 Mar 2018 &raquo; <a href="/2018/03/01/experimenting-with-spec-generators">Experimenting with Spec Generators</a>
 

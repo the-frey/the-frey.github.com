@@ -17,7 +17,7 @@ First off - if you get the chance to go to one of these events, I'd recommend it
 
 Either way, here are some thoughts based on the notes that I scribbled.
 
-A lot of it has to do with two broad trends in architecture, and particularly high-volume data architecture. I may call it something different, but we're I suppose talking about the Lambda vs Kappa[1] patterns in some way, shape or form.
+A lot of it has to do with two broad trends in architecture, and particularly high-volume data architecture. I may call it something different, but we're I suppose talking about the Lambda[1] vs Kappa[2] patterns in some way, shape or form.
 
 In this blogpost, I'll generally refer to the _Kappa_ pattern as _The Database Inside Out_, chiefly so I can contrast with the model of an abstract computer program.
 
@@ -29,7 +29,7 @@ Essentially, this means conceptually treating your organisation like a **single,
 
 This is based around the notion that if you're using a persistent log to integrate and hydrate data systems at the core of your architecture then you're taking a component based on the transaction log of a database and using it as an abstraction. Taking this abstraction to its logical conclusion means that indeed your organisation can be considered as a database, its operational and analytic data stores as derived data views, and any data-at-rest or persistence to an underlying file system as the persistence mechanism; with of course the caveat that theoretically infinite logs and Change Data Capture can mean your streaming platform can also be your persistence layer.
 
-## The Lambda Architecture
+## Lambda/Serverless Architecture
 
 Meanwhile, over in AWS-land:
 
@@ -38,7 +38,7 @@ Meanwhile, over in AWS-land:
 
 This is interesting, because when you add AWS Lambda (anonymous functions) Kinesis, SQS/SNS (queues, or lists) Dynamo DB (sort of like a meta hash table), Step Functions (state machines) together, you basically have all the standard library of a simple programming language, and a strong steer towards architecting in a more functional style.
 
-To borrow some ideas from Rich Hickey (go and watch _The Language of the System_, if you haven't already), if you're already treating data as the first class citizen of your system it should be, and thinking about things like schemas, validation, evolving definitions, versioning, micro- or nano-services, then neither _The Database Inside Out_ nor _The Lambda Architecture_ should be counter-intuitive as architectural patterns. 
+To borrow some ideas from Rich Hickey (go and watch _The Language of the System_, if you haven't already), if you're already treating data as the first class citizen of your system it should be, and thinking about things like schemas, validation, evolving definitions, versioning, micro- or nano-services, then neither _The Database Inside Out_ nor _Lambda/Serverless Architecture_ should be counter-intuitive as architectural patterns. 
 
 Your primary concern should be about the flow of data in your organisation, and a pragmatic coupling that allows for rapid development both of new components and products and of replacements for worn out products or components.
 
@@ -46,7 +46,7 @@ By reifying abstract data flows and making sure they are not tied to runtime or 
 
 The difference boils down to implementation details - are you running microservices on virtual instances, containers or bare metal, or are you running hooks provided by vendor tooling? Both require you to have a strong handle on the interfaces in your system where data passes between components.
 
-However, getting back on track, what the AWS-flavour of Lambda amounts to, so far as I can see, is **treating your organisation like a program**, which is perhaps an even greater level of abstraction than that already conceptually presented by Kleppmann and co.
+However, getting back on track, what the AWS-flavour of Lambda/Serverless amounts to, so far as I can see, is **treating your organisation like a program**, which is perhaps an even greater level of abstraction than that already conceptually presented by Kleppmann and co.
 
 ## Wrap up
 
@@ -62,4 +62,6 @@ It's an interesting and subtle thought exercise because of the traditional close
 
 Disagree? [Let's argue on Twitter](https://twitter.com/hipsters_unite).
 
-[1] Probably worth pointing out that the log and stream integration pattern in various forms is often grouped under the blanket of _The Kappa Architecture_, which I believe originated as a joke from Jay Kreps, the creator of Apache Kafka. Here's a [repository of info](http://milinda.pathirage.org/kappa-architecture.com/) and Kreps' [original O'Reilly blog piece](https://www.oreilly.com/ideas/questioning-the-lambda-architecture).
+[1] Note that I'm using Lambda to refer to Serverless in this piece, and not _The Lambda Architecture_, which was a precursor to the tongue-in-cheek _Kappa Architecture_.
+
+[2] Probably worth pointing out that the log and stream integration pattern in various forms is often grouped under the blanket of _The Kappa Architecture_, which I believe originated as a joke from Jay Kreps, the creator of Apache Kafka. Here's a [repository of info](http://milinda.pathirage.org/kappa-architecture.com/) and Kreps' [original O'Reilly blog piece](https://www.oreilly.com/ideas/questioning-the-lambda-architecture), which expands on what was confusingly at the time seen as an extension of a concept known as The Lambda Architecture.
