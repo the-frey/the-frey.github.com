@@ -102,7 +102,7 @@ span.blue {
 }
 
 div.code {
-  background: rgb(235,235,235);
+  background: rgb(240,240,240);
   padding: 1rem;
   color: #3b3b3b;
 }
@@ -118,7 +118,8 @@ ul, ol {
 
 blockquote {
   border-left: 1rem solid #4096ae;
-  padding-left: 1rem;
+  padding: 1rem;
+  background: rgb(240,240,240);
 }
 
 /*****************************************************************************/
