@@ -110,6 +110,11 @@ ul, ol {
   margin-bottom:30px;
 }
 
+blockquote {
+  border-left: 1rem solid #4096ae;
+  padding-left: 1rem;
+}
+
 /*****************************************************************************/
 /*
 /* Home
