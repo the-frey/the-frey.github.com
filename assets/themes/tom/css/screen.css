@@ -101,6 +101,12 @@ span.blue {
   color:#4096ae;
 }
 
+div.code {
+  background: rgb(235,235,235);
+  padding: 1rem;
+  color: #3b3b3b;
+}
+
 div.title a {
   font-family:'Monaco', "Courier New", monospace; 
 }

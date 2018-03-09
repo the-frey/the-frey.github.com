@@ -14,15 +14,21 @@ After thinking through the implications of Serverless/Lambda, I asked the follow
 <div class='code'>
 
   Genuinely interested here as I was at an AWS builder's day last week and the tooling is very nodejs focussed (and python I guess) so far as I can tell. Start up and warm up costs for the jvm too. Plus:
+  <br/><br/>
 
   1) a lot of best practice in clojure land becomes implicit when you have to separate out front and backend because of using e.g. lambda to serve an API endpoint 
+  <br/>
   2) things like the serverless (framework) that looks to provide an abstraction over AWS, azure and gcp is also nodejs and for example looks like a decent way of being able to do backend agnostic stuff.
+  <br/><br/>
 
   I was an early adopter of docker back in 2014 so I'm looking at this stuff and going "well if this is the future of large systems then how will it affect my ways of working?"
+  <br/><br/>
 
   Just some things I've been pondering...
+  <br/><br/>
 
   UPDATE:
+  <br/><br/>
 
   When I say the serverless framework as opposed to pattern, I specifically mean this abstraction framework.
 
