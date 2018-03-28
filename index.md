@@ -10,7 +10,9 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-22 Mar 2018 &raquo; <a href="/2018/03/09/clojure-in-a-serverless-world">Clojure in a Serverless World</a>
+28 Mar 2018 &raquo; <a href="/2018/03/28/kubernetes-hacking">Kubernetes Hacking</a>
+
+22 Mar 2018 &raquo; <a href="/2018/03/22/agile-ways-of-working">Agile Ways of Working</a>
 
 09 Mar 2018 &raquo; <a href="/2018/03/09/clojure-in-a-serverless-world">Clojure in a Serverless World</a>
 
