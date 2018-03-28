@@ -20,7 +20,7 @@ I also had a quote from a colleague of mine around how and why we work the way w
 Obviously, a great debt here is owed to [The Agile Manifesto](http://agilemanifesto.org/).
 
 ## Agile Ways of Working
-<br>
+
 
 - Focus on user needs
   - Identify the users of a service and what their needs are
