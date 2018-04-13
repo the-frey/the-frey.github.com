@@ -25,6 +25,8 @@ When you're in an environment where this instant feedback is absolutely not an o
 
 ## Debugging in circuit versus in isolation
 
+## Turret boards and PCBs
+
 ## Our tightly-coupled systems
 
 Where we don't have feedback, we don't tend to notice a tight coupling emerging. Now, partly this is a critique of my PCB design, but many professional manufacturers will split out PCBs into blocks that can then be debugged.
