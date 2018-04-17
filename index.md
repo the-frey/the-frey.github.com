@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+17 Apr 2018 &raquo; <a href="/2018/04/17/naive-kafka-and-clojure-performance">Naive Kafka and Clojure performance</a>
+
 13 Apr 2018 &raquo; <a href="/2018/04/13/kafka-producers-in-clojure">Kafka Producers in Clojure</a>
 
 10 Apr 2018 &raquo; <a href="/2018/04/10/quick-tips-for-travis-and-clojure">Quick tips for Travis and Clojure</a>

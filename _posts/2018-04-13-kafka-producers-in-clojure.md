@@ -9,7 +9,7 @@ tags: [kafka,clojure,data]
 
 I've been playing around with Kafka for a while, but only recently started work in earnest on an implementation in the wild using Clojure. It turns out that to write a little wrapper around the Java library is pretty trivial, and for the use case of serializing arbitrary hashmaps it's relatively terse and simple to boot.
 
-During some stress-testing today, on a single Kafka broker on my laptop with no performance tuning I was able to get about 140k msgs/sec throughput from a multi-GB file with 25m rows, so for most use-cases that's going to be quick enough.
+During some stress-testing today, on a single Kafka broker on my laptop with no performance tuning I was able to get about 140k msgs/sec throughput as strings from a multi-GB file with 25m rows, so for most use-cases that's going to be quick enough.
 
 I'm working on a micro-library called _needlecast_ to bootstrap JSON and nippy serializer/deserializers and Kafka producers and consumers, which hopefully I'll have a first pass at this weekend.
 
