@@ -40,6 +40,7 @@ language: clojure
 sudo: required
 lein: 2.7.1
 jdk:
+  - openjdk7
   - oraclejdk8
 before_install:
   - sudo chmod +x ./travis/bootstrap.sh
