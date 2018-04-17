@@ -47,6 +47,8 @@ These were run a few times to make sure the times were +/- 10%, but only the fin
 - ~250 secs run time
 - ~100k msgs/s
 
+_Although the time on this wobbled around a bit, the quickest it ran in was an astonishing ~168s, making it ~150k msgs/s on that run. Whoa._
+
 It's worth noting that using non-lazy io blows up. The lazy hype is real, yo!
 
 You could, I suppose, poll for a set number of lines and then you could batch and parallelize, so maybe I will try that to see how it performs against using `comp`'d functions.
