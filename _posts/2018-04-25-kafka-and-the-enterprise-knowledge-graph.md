@@ -35,7 +35,7 @@ In case you're curious about linked data, [here's a great post by my old boss](h
 
 At the Kafka Summit yesterday, one of the most interesting details was that Yelp had implemented a schema registry of their own for their Kafka platform. This is because, at the time, the [Confluent schema registry](https://github.com/confluentinc/schema-registry) did not exist.
 
-Essentially, they hide Kafka behind their registry and require both consumers and producers to register the schema entities they want to log with the central schema registry before they can access the Kafka topic they need.
+They hide Kafka behind their registry and require both consumers and producers to register the schema entities they want to log with the central schema registry before they can access the Kafka topic they need.
 
 As they use the AVRO format, schema evolution and compression is handled in quite a slick manner, but they also did caution that it imposes an overhead in languages like python, where the tooling around the format is more immature.
 
@@ -43,7 +43,7 @@ Choosing JSON in this situation would be possible, but would mean more engineeri
 
 I'm not sure I'd go so far as to stop access without registration, but providing a standard library for producers and consumers that closes over the registration abstraction when initializing is probably a pragmatic middle ground, but to be honest I haven't totally decided yet where I fall on that question.
 
-So in this manner, they suddenly found themselves with an internal ontology, by accident. Enlisting an intern to help, they built a UI on top, called Watson.
+In this manner, they suddenly found themselves with an internal ontology, by accident. Enlisting an intern to help, they built a UI on top, called Watson.
 
 Under the hood, it's a MySQL database. I asked in the Q&A if they had ever considered a graph-based modelling strategy or graph data store.
 
