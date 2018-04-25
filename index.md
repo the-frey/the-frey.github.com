@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+25 Apr 2018 &raquo; <a href="/2018/04/24/kafka-and-the-enterprise-knowledge-graph">Kafka and the Enterprise Knowledge Graph</a>
+
 24 Apr 2018 &raquo; <a href="/2018/04/24/kafka-summit-2018">Kafka Summit 2018</a>
 
 20 Apr 2018 &raquo; <a href="/2018/04/20/clojure-and-sqlite-hacking">Clojure and SQLite Hacking</a>
