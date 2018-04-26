@@ -62,3 +62,9 @@ Now let's add in the EKG.
 ![With EKG validation](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/etl_ekg.JPG)
 
 I'm pretty sure this passes the Rich Hickey simplicity test - _"Simple is objective."_
+
+In practice it might be a little less so, but hey:
+
+![In practice](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/ekg_streaming.png)
+
+I think this is pretty cool, but maybe that's just me.
