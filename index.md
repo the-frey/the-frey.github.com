@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
+04 May 2018 &raquo; <a href="/2018/05/04/streaming-at-netflix">Streaming at Netflix</a>
+
 27 Apr 2018 &raquo; <a href="/2018/04/27/metabase-and-json-blobs-in-postgres">Metabase and JSON blobs in Postgres</a>
 
 25 Apr 2018 &raquo; <a href="/2018/04/25/kafka-and-the-enterprise-knowledge-graph">Kafka and the Enterprise Knowledge Graph</a>
