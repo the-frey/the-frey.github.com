@@ -10,7 +10,7 @@ Hello, my name is Alex and I'm a software engineer who mainly develops for the w
 
 ## Posts:
 
-01 Jun 2018 &raquo; <a href="/2018/05/30/my-nwrug-talk-video-is-up">The video of my talk is up...</a>
+01 Jun 2018 &raquo; <a href="/2018/06/01/my-nwrug-talk-video-is-up">The video of my talk is up...</a>
 
 30 May 2018 &raquo; <a href="/2018/05/30/live-code-js-lambdas-with-scratches">Live code JS lambdas with Scratches</a>
 
