@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Alex Lynham
-tagline: One small step for a developer...
+tagline: Yesss! I am invincible!
 ---
 {% include JB/setup %}
 
-Hello, my name is Alex and I'm a software engineer who mainly develops for the web. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code, repairing guitars, and occasionally, moan about running a [small record label](http://superstardestroyer.co.uk) and [pedal company](https://reverb.com/uk/shop/ssd-devices).
+Hello, my name is Alex and I'm a software engineer who mainly develops full-stack applications for the web. I'm also into building distributed systems. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code, repairing guitars, and occasionally, moan about running a [small record label](http://superstardestroyer.co.uk) and [pedal company](https://reverb.com/uk/shop/ssd-devices).
 
 
 ## Posts:
+
+08 Jun 2018 &raquo; <a href="/2018/06/08/a-serverless-stream-platform">A Serverless Stream Platform</a>
 
 01 Jun 2018 &raquo; <a href="/2018/06/01/my-nwrug-talk-video-is-up">The video of my talk is up...</a>
 
