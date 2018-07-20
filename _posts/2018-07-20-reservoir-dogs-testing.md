@@ -13,6 +13,8 @@ ANYWAY. I read [this amusing blog post](http://devcycle.co.uk/TDD-Thats-Design-D
 
 > I don't test because society says I gotta. I test when somebody deserves a test. When somebody really puts forth an effort, they deserve a little something extra. But this testing automatically, that shit's for the birds.  As far as I'm concerned, they're just doin' their job.
 
+ 
+
 <script src="https://gist.github.com/the-frey/5cce0f631ff28ec39a7637bff36d3ab6.js"></script>
 
 As an aside, while grepping through the script, I noticed that my saying:
