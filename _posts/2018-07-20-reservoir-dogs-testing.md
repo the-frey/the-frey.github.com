@@ -7,7 +7,9 @@ tags: []
 ---
 {% include JB/setup %}
 
-Primarily because I'm a massive contrarian, I've been skeptical of the cult of TDD since I got out from under it myself as a junior way back when. Now, obviously I do actually write tests, it's just my approach varies depending on language, project and context. Hell, in a Rails code base, I'd generally take a TDD approach purely because I can't reason at all about what it's going to do without writing something first. 
+Primarily because I'm a massive contrarian, I've been skeptical of the cult of TDD since I got out from under it myself as a junior way back when. Now, obviously I do actually write tests, it's just my approach varies depending on language, project and context. 
+
+Hell, in a Rails or Django code base, I'd take a TDD approach purely because I can't reason at all about what it's going to do without writing something first. TDD is brilliant in certain contexts.
 
 ANYWAY. I read [this amusing blog post](http://devcycle.co.uk/TDD-Thats-Design-Done/) and decided to find and replace every instance of 'tip' in the opening of RD to 'test'. There are some great bits...
 
