@@ -18,9 +18,11 @@ However, for most, the use-case will be more simple, and the options therefore a
 - Publish your shared code as a library
 - Work out how to inject shared code into a build
 
-The first option is good if you have good control over your environments and decisions, while the second is probably preferable to having to faff around with private repos, builds and dependency issues. 
+The first option is solid if you have good control over your environments and decisions, while the second is probably preferable to having to faff around with private repos, builds and dependency issues. 
 
-The second option will be easier in most cases, though. Recall that we can navigate a folder structure in our lambdas, and upload a bundle of code including subdirectories. Thus, we just need to make sure our code is accessible locally - for our development and testing, and then bundle any shared code as part of our build process.
+The second option will be easier in most cases where you're not a lone developer and where you want code colocated in the same repo, so that's the one we'll focus on here.
+
+Recall that we can navigate a folder structure in our lambdas, and upload a bundle of code including subdirectories. Thus, we just need to make sure our code is accessible locally - for our development and testing, and then bundle any shared code as part of our build process.
 
 Using the Python example from [my other post](http://the-frey.github.io/2018/07/20/structuring-a-serverless-python-backend) we might do the following, adding a `utils` folder with our bootstrap functions in:
 
