@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops full-stac
 
 ## Posts:
 
+11 Sep 2018 &raquo; <a href="/2018/09/11/sharing-code-in-lambdas">Sharing code in Lambdas</a>
+
 24 Jul 2018 &raquo; <a href="/2018/07/24/testing-python-lambdas">Testing Python Lambdas</a>
 
 20 Jul 2018 &raquo; <a href="/2018/07/20/structuring-a-serverless-python-backend">Structuring a Serverless Python backend</a>
