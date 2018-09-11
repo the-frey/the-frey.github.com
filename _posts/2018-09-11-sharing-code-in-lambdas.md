@@ -46,7 +46,9 @@ Then, we need to update our Docker build, so that the `utils` folder is packaged
 
 The Dockerfile also now uses Pipenv, a better way of building Python projects.
 
-For reference, a Pipfile, as it's a good idea to move over; you get npm-style task running (for say, excluding tests, as per in this example) and a lockfile: 
+It's a good idea to move over; you get npm-style task running (for say, excluding tests, as per in this example) and a lockfile.
+
+Here's our example Pipfile: 
 
 <script src="https://gist.github.com/the-frey/4ee4785d193a71fb6b711f1ff99bbd57.js"></script>
 
