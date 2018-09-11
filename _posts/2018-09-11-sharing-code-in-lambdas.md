@@ -22,7 +22,7 @@ The first option is good if you have good control over your environments and dec
 
 The second option will be easier in most cases, though. Recall that we can navigate a folder structure in our lambdas, and upload a bundle of code including subdirectories. Thus, we just need to make sure our code is accessible locally - for our development and testing, and then bundle any shared code as part of our build process.
 
-Using the Python example from [my other post](/2018/07/20/structuring-a-serverless-python-backend) we might do the following, adding a `utils` folder with our bootstrap functions in:
+Using the Python example from [my other post](http://the-frey.github.io/2018/07/20/structuring-a-serverless-python-backend) we might do the following, adding a `utils` folder with our bootstrap functions in:
 
 ```
 utils
