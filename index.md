@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops full-stac
 
 ## Posts:
 
+18 Sep 2018 &raquo; <a href="/2018/09/18/joker-error-styling-in-emacs">Joker error styling in Emacs</a>
+
 11 Sep 2018 &raquo; <a href="/2018/09/11/sharing-code-in-lambdas">Sharing code in Lambdas</a>
 
 24 Jul 2018 &raquo; <a href="/2018/07/24/testing-python-lambdas">Testing Python Lambdas</a>
