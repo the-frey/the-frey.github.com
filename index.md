@@ -10,6 +10,10 @@ Hello, my name is Alex and I'm a software engineer who mainly develops full-stac
 
 ## Posts:
 
+1 Oct 2018 &raquo; <a href="/2018/10/01/a-graphql-api-using-azure-functions-and-apollo">A GraphQL API using Azure Functions and Apollo</a>
+
+1 Oct 2018 &raquo; <a href="/2018/10/01/very-functional-python-and-aws-lambda">Very functional python and AWS Lambda</a>
+
 18 Sep 2018 &raquo; <a href="/2018/09/18/joker-error-styling-in-emacs">Joker error styling in Emacs</a>
 
 11 Sep 2018 &raquo; <a href="/2018/09/11/sharing-code-in-lambdas">Sharing code in Lambdas</a>
