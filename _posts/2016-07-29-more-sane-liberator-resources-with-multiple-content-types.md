@@ -15,7 +15,7 @@ Big ups of course go to our resident Clojure guru Rick for pairing on stuff and 
 
 Right, let's get started. From the docs, here's a simple `defresource`:
 
-```
+```clojure
 (defresource hello-world
   :available-media-types ["text/plain"]
   :handle-ok "Hello, world!")
@@ -23,7 +23,7 @@ Right, let's get started. From the docs, here's a simple `defresource`:
 
 In practice though, as you're going to want to set defaults for the large number of keys available to you, you'll end up defining a `defaults` method - `defresource` just takes a hashmap as its second argument, so we can do something like this, hooking it up to a compojure route in the process:
 
-```
+```clojure
 (def hello-world-defaults
   {:available-media-types ["text/plain" "text/csv"]})
 
@@ -36,7 +36,7 @@ In practice though, as you're going to want to set defaults for the large number
 
 Okay, so let's say we have a second resource that takes the same defaults but has an extra key. Let's create a new `defresource`:
 
-```
+```clojure
 (def hello-world-defaults
   {:available-media-types ["text/plain" "text/csv"]})
 
@@ -63,7 +63,7 @@ So, here's where it becomes a matter of taste. If we want to replicate this beha
 
 "Ah!" you might say, "but you could just move that into a map and include that into the `defresource` in the same way!" Well, yes, that's the next step:
 
-```
+```clojure
 (def hello-world-defaults
   {:available-media-types ["text/plain" "text/csv"]})
 
@@ -89,7 +89,7 @@ So, here's where it becomes a matter of taste. If we want to replicate this beha
 
 Except that now, we don't really need the named `defresource` do we? 
 
-```
+```clojure
 (def hello-world-map
   {:available-media-types ["text/plain" "text/csv"]})
 
@@ -110,14 +110,14 @@ Except that now, we don't really need the named `defresource` do we?
 
 This also has the added bonus that we can use the following incantation to create a working resource in tests, merging in maps of other options that we may need:
 
-```
+```clojure
 (resource (merge user-resource-map
                  user-resource-test-map)) ;; maybe this adds a new key we don't need in dev/prod 
 ```
 
 We could create a new resource from scratch that dispatches on media type to two different handlers:
 
-```
+```clojure
 (def test-resource-options
   {:handle-ok (fn [ctx]
                 (log/info ctx)
