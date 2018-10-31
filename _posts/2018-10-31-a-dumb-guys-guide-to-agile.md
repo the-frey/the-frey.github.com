@@ -9,7 +9,7 @@ tags: []
 
 I've worked in a bunch of environments now, all of them nominally 'agile', although usually with a small 'a'. In tech-first small companies, I think a better name might be anarchic agile actually, but I digress. 
 
-Having been in that environment and now seen a moderately dogmatic use of agile in a larger enterprise, I think it's time for my (I'm the dumb guy) guide to where the value seems to be in agile.
+Having been in that environment previouslym and now having seen a moderately dogmatic use of agile in a larger enterprise, I think it's time for my (I'm the dumb guy) guide to where the value seems to be in agile.
 
 ___
 
