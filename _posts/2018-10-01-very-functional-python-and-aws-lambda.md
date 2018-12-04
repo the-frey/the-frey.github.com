@@ -30,7 +30,7 @@ We have a structure a little like this, FWIW:
     "field2": "foo"
     "optional_properties": {}
   },
-  "errors": {}
+  "errors": []
 }
 ```
 
