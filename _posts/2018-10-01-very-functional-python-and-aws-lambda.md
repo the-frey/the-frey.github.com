@@ -9,7 +9,7 @@ tags: [python,lambda,serverless]
 
 Note: This was also given as a lightning talk on a couple of occasions, and you can find the slides at the link below.
 
-![Slides](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/very-functional-python.pdf)
+[Slides](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/very-functional-python.pdf)
 
 So in the last few posts on Python and AWS Lambda, I've been talking through the evolution of a Python serverless project.
 
