@@ -9,7 +9,7 @@ tags: []
 
 Now, I'm by no means an expert in this area, but there was a conversation at work about DDD in FP languages provoked by this great talk by Scott Wlaschin, and I figured I'd write up some thoughts.
 
-https://youtu.be/Up7LcbGZFuo
+[Domain Modeling Made Functional - Scott Wlaschin](https://youtu.be/Up7LcbGZFuo)
 
 It seems like Scott's essential insight (which, granted, is a good one) is that DDD in OO languages is marred by the tight coupling, or (sigh) 'complecting' between type and class.
 
