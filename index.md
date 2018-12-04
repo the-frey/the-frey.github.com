@@ -5,7 +5,7 @@ tagline: Yesss! I am invincible!
 ---
 {% include JB/setup %}
 
-Hello, my name is Alex and I'm a software engineer who mainly develops full-stack applications for the web. I'm also into building distributed systems. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code, repairing guitars, and occasionally, moan about running a [small record label](http://superstardestroyer.co.uk) and [pedal company](https://reverb.com/uk/shop/ssd-devices).
+Hello, my name is Alex and I'm a software engineer who mainly builds full-stack web applications and distributed systems. If you're looking for the music journalist, that is me, but you'd be better off finding my music blog <a href="http://www.hipstersunite.net/" target='_blank'>here</a>. This is where I talk to myself about code, repairing guitars, and occasionally, moan about running a [small record label](http://superstardestroyer.co.uk) and [pedal company](https://reverb.com/uk/shop/ssd-devices).
 
 
 ## Posts:
