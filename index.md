@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly develops full-stac
 
 ## Posts:
 
+04 Dec 2018 &raquo; <a href="/2018/12/04/ddd-in-functional-languages-and-fp">DDD in Functional Languages and FP</a>
+
 31 Oct 2018 &raquo; <a href="/2018/10/31/a-dumb-guys-guide-to-agile">A dumb guy's guide to agile</a>
 
 31 Oct 2018 &raquo; <a href="/2018/10/31/switching-lambda-environment-variables-in-place-with-jenkins">Switching Lambda environment variables in place with Jenkins</a>
