@@ -17,7 +17,7 @@ Once you're just modelling your domain with types and then using those in functi
 
 It's worth _puts on contrarian hat_ observing though that this applies more in a typed lambda calculus lang like haskell (or F# as a poor person's haskell (is that too mean?)) than it does in ancestral FP languages like ML or Lisp, where you will[0] get data in and data out. In those situations the burden is placed more at the point of access rather than the point of definition.
 
-That's why you see a lot of business domain being written as functions like
+That's why you[1] see[2] a lot of business domain code being written as functions like
 
 ```
 login->session
@@ -25,7 +25,15 @@ account-trigger->email
 basket->order
 ```
 
-Where there's an implicit type at either end. This is I suppose where the schema-based stuff comes in, and that's super interesting in terms of weak pseudo polymorphic typing... but crucially for this discussion, allows you to noun your domain.
+Where there's an implicit type at either end. 
+
+```
+"Login form" -> "User session"
+"A trigger action performed on an account" -> "An Email"
+"A basket of Items" -> "An order"
+```
+
+This is I suppose where the schema-based stuff comes in when using a language like Clojure, and that's super interesting in terms of weak pseudo polymorphic typing... but crucially for this discussion, allows you to noun your domain.
 
 i.e. a schema for the hash maps that are of the right shape for `login`, `session`, `account-trigger`, `email`, `basket`, and `order` to use my example above.
 
@@ -37,6 +45,8 @@ triggerEmail :: AccountTrigger -> Email
 placeOrder :: Basket -> Order 
 ```
 
+Two of these involve side-effects, so I probably should have chosen examples without that complication, but let's side-step that for now.
+
 I think the schema-based example is interesting though - because there are points in a system where access is the most important interface, e.g.
 
 - Database access
@@ -47,4 +57,6 @@ That's where you leave a system boundary (side effects!) so the types and DDD in
 Thus it’s an interesting thought exercise to ponder if for example, REST is harder to reconcile with a pragmatic DDD approach than GraphQL.
 
 [0] Mostly.
+[1] Okay, _I_.
+[2] Okay, _write_.
 
