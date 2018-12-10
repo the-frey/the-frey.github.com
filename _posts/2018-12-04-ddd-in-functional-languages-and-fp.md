@@ -57,6 +57,8 @@ That's where you leave a system boundary (side effects!) so the types and DDD in
 Thus it’s an interesting thought exercise to ponder if for example, REST is harder to reconcile with a pragmatic DDD approach than GraphQL.
 
 [0] Mostly.
+
 [1] Okay, _I_.
+
 [2] Okay, _write_.
 
