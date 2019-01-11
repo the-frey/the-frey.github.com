@@ -13,7 +13,7 @@ tags: [clojure,heroku,luminus]
 
 ## Interactive REPL for core Clojure syntax
 
-<iframe height="400px" width="100%" src="https://repl.it/@the_frey/StarchyFaintOperatingenvironment?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="1400px" width="100%" src="https://repl.it/@the_frey/StarchyFaintOperatingenvironment?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Core Clojure syntax (to run locally)
 
