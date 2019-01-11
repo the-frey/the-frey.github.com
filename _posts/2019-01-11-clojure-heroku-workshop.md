@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting started with Clojure - Clojure and Heroku Workshop"
+title: "Clojure and Heroku Workshop"
 description: "Here's a workshop template for getting people programming Clojure for web projects."
 category: 
 tags: [clojure,heroku,luminus]
