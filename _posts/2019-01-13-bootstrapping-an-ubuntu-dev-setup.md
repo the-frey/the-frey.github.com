@@ -19,6 +19,8 @@ I found that since I last used Ubuntu full-time (2012-13), it's come on leaps an
 
 I had originally thought of jumping to Arc or even Arcolinux, but as I got most of a working setup going over just a lunchbreak, I figured Ubuntu was actually the one I was after.
 
+___
+
 # Basics
 
 - On installation, encrypt the disk or partition
@@ -43,6 +45,8 @@ Go to `Settings -> Devices -> Keyboard` and then change:
 - Move to Workspace Above: `Ctrl+Right`
 - Move to Workspace Below: `Ctrl+Left`
 - Lock screen: `Ctrl-Escape`
+
+___
 
 # Look and feel
 
@@ -78,7 +82,6 @@ Install the extensions tool:
 ```
 $ sudo apt install gnome-shell-extensions
 $ sudo apt install chrome-gnome-shell
-
 ```
 
 Don't worry about the "chrome" bit if you're using FF, I think that's just a legacy thing.
@@ -93,7 +96,14 @@ Then get:
 - Dynamic transparency plugin [here](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)
 - System monitor plugin [here](https://extensions.gnome.org/extension/120/system-monitor/)
 
-For system monitor, 
+For system monitor, I display CPU, Memory, Network and temperature. The settings I have are:
+
+- CPU: Display: Yes; Display style: Both; Graph Width 50; Show text: Yes.
+- Memory: Yes; Display style: Both; Graph Width 50; Show text: Yes.
+- Network: Display: Yes; Display style: Both; Graph Width 50; Show text: No.
+- Temp: Display: Yes; Display style: Both; Graph Width 10; Show text: No.
+
+___
 
 # Fingerprint login
 
@@ -102,6 +112,8 @@ Follow the advice on this [question](https://askubuntu.com/questions/1049526/fin
     $ sudo apt install -y fprintd libpam-fprintd
 
 In `settings->users` there will now be an option for fingerprint login.
+
+___
 
 # Emacs setup
 
@@ -130,6 +142,8 @@ Hit `M-x customize RET` then in `Faces -> Basic Faces` find the `Default` option
 To get the excellent `joker` linter to work, I downloaded a linux version of the tool from [here](https://github.com/candid82/joker/releases) and then moved it to `/usr/local/bin`.
 
 Job done.
+
+___
 
 # Sublime setup
 
@@ -177,6 +191,8 @@ On the whole, most sublime settings on Linux will be CTRL instead of option, but
 
 <script src="https://gist.github.com/the-frey/35f51ea31e8c571fd8e5ba70acbb2a53.js"></script>
 
+___
+
 # Terminal setup
 
 I use zsh with `oh-my-zsh`.
@@ -185,7 +201,6 @@ I use zsh with `oh-my-zsh`.
 $ sudo apt install git-core zsh
 $ sh -c “$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 $ sudo apt install fonts-powerline
-
 ```
 
 Then, update the `.zshrc` config file...
@@ -320,6 +335,8 @@ I also add some custom aliases to my `~/.gitconfig`:
         go = commit
 ```
 
+___
+
 # Programming languages
 
 Obviously this is very specific to me. I don't do as much Ruby any more, so I'm not installing that right off the bat. If I did, I would do it with RVM.
@@ -371,6 +388,8 @@ $ sudo ./linux-install-1.10.0.411.sh
 
 Ubuntu has a pretty up-to-date Leiningen in the package manager, so you can just [get it from there](https://launchpad.net/ubuntu/+source/leiningen-clojure), or you can install it using the `lein` script from the Leiningen website.
 
+___
+
 # Install Docker
 
 Double check there are no old versions lurking:
@@ -413,9 +432,13 @@ You can check it's running with:
 
 Phew.
 
+___
+
 # Writing
 
 Get FocusWriter, and set it to the green text on black screen for maximum hackage.
+
+___
 
 # Dumb other stuff
 
