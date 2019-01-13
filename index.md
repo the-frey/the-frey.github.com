@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 
 ## Posts:
 
+13 Jan 2018 &raquo; <a href="/2019/01/13/bootstrapping-an-ubuntu-dev-setup">Bootstrapping an Ubuntu dev setup</a>
+
 11 Jan 2018 &raquo; <a href="/2019/01/11/clojure-heroku-workshop">Getting started with Clojure - Clojure and Heroku Workshop</a>
 
 31 Dec 2018 &raquo; <a href="/2018/12/31/anti-technical-bias">Anti-technical bias</a>
