@@ -36,7 +36,11 @@ ___
 - Generate an SSH key and add it to your GitHub, and/or any other services that need a public key. [Use this guide](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux)
 - Install Slack from Ubuntu Software (hit `Super` and type that)
 
-## Keyboard shortcuts
+## Keyboard
+
+Set the keyboard to `English, UK, Macintosh`.
+
+### Keyboard shortcuts
 
 I have a bunch of things that I set up to be a little like my mac. In some cases, these are things (like lock screen) which I actually set on my mac after custom setting them in Ubuntu in 2013. Ho hum.
 
