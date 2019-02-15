@@ -10,7 +10,7 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 
 ## Posts:
 
-15 Feb 2019 &raquo; <a href="/2019/01/13/helidox-build-log">Helidox build log</a>
+15 Feb 2019 &raquo; <a href="/2019/02/15/helidox-build-log">Helidox build log</a>
 
 13 Jan 2019 &raquo; <a href="/2019/01/13/bootstrapping-an-ubuntu-dev-setup">Bootstrapping an Ubuntu dev setup</a>
 
