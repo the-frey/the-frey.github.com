@@ -104,11 +104,11 @@ Not only is this something I need to consider in future, but I probably need to 
 
 I'm already aware of this tendency to the extent that a Jamie Lenman lyric has really stuck with me over the years since I first heard it:
 
-> So now you know
-> So now you see
-> Why it's so hard to please me
-> I measure myself
-> And I measure you all
+> So now you know /
+> So now you see /
+> Why it's so hard to please me /
+> I measure myself /
+> And I measure you all /
 > Against an impossible rule
 
 So yeah, a bit dark, that one. I think any growth as a leader will have to take this into account, because if one person can see this, others can too - and it's not exactly an attractive behaviour, even if I am prepared to be pretty frank about it.
