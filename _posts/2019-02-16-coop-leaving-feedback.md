@@ -125,6 +125,8 @@ I've been prone to burn-out in the past and I don't always manage my energy leve
 
 > [You need support with] being able to work at more than one speed. [It] feels like you're only able to throw 100% into anything which (I think) leaves you mentally exhausted.
 
+Somebody else came at this from a different angle:
+
 > [You spend] all your energy on dealing with people. You have great self awareness of when you're doing it and when you've used up your energy. However you still keep on going (through the power of sweets and coffee). It seems this is the biggest area where you needed support.
 
 # Wrapping up
