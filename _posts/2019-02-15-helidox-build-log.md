@@ -7,6 +7,8 @@ tags: [keyboard,helidox,corne]
 ---
 {% include JB/setup %}
 
+![helidox](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/helidox.jpg)
+
 First up, it worked, woo! I'm actually typing this on the Helidox. Compared to the Ergodox EZ I have, it's slicker, smaller and - weirdly - easier to navigate. my theory about why this should be is two-fold; firsly, that the Helidox is smaller, so easier to get your head around; secondly, it's so different to what you're used to that you're forced to make a clean break and adapt.
 
 So, without further ado, here's some of the stuff that I ran into during the build.
@@ -68,6 +70,8 @@ Which leads me to...
 Socket your microcontrollers!
 
 Seriously, I know you're confident enough to solder them okay, but socket them anyway, alright?!
+
+Next time I will probably use [these sockets](https://uk.rs-online.com/web/p/pcb-pin-socket-strips/7020165/) which I believe will be compatible with the smaller pin sockets that are currently available - and possibly also the DIP sockets you can get for the ProMicro.
 
 ## N-Key rollover
 
