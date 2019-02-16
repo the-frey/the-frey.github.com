@@ -7,7 +7,7 @@ tags: [keyboard,helidox,corne]
 ---
 {% include JB/setup %}
 
-![helidox](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/helidox.jpg)
+![helidox](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/helidox.JPG)
 
 First up, it worked, woo! I'm actually typing this on the Helidox. Compared to the Ergodox EZ I have, it's slicker, smaller and - weirdly - easier to navigate. my theory about why this should be is two-fold; firsly, that the Helidox is smaller, so easier to get your head around; secondly, it's so different to what you're used to that you're forced to make a clean break and adapt.
 

@@ -19,7 +19,7 @@ I asked about fifteen people from various teams and disciplines that I'd worked 
 
 So, here's the window I drew with the results:
 
-![Johari Window](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/johari.jpg)
+![Johari Window](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/johari.JPG)
 
 ## Observations
 
