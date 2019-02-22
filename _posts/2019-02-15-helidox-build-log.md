@@ -97,3 +97,9 @@ Note that as the Helidox/crkbd keymap has a macro in it, you can omit the `KC_` 
 ## Pictures
 
 I've thrown on some keycaps from my old Corsair K65 for now, but I'm waiting on some DSA Light Cycle caps I ordered. Once those materialise, I'll update this post with some pictures.
+
+## Layout
+
+This is the layout that I'm currently using; the three markings on each key indicate the layer they're on, with top being raise, middle being default and bottom being lower. Obviously the keys marked will behave as you'd expect with the shift key, i.e. `/` becomes `?`.
+
+![helidox layout](https://raw.githubusercontent.com/the-frey/the-frey.github.com/master/assets/images/keyboard-layout.jpg)
