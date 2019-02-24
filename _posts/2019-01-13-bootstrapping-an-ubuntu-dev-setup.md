@@ -36,6 +36,16 @@ ___
 - Generate an SSH key and add it to your GitHub, and/or any other services that need a public key. [Use this guide](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux)
 - Install Slack from Ubuntu Software (hit `Super` and type that)
 
+## Mouse drivers
+
+On the whole, I found the trackpad wasn't bad - but if you want the synaptic specific drivers (which make the experience smoother), you'll need to install them:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install xserver-xorg-input-synaptics
+
+```
+
 ## Keyboard
 
 Set the keyboard to `English, UK, Macintosh`.
