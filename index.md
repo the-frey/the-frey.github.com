@@ -10,6 +10,12 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 
 ## Posts:
 
+07 Jun 2019 &raquo; <a href="/2019/06/07/serverless-clojurescript-workshop">Getting started with cljs and Serverless - Serverless Clojurescript Workshop</a>
+
+07 Jun 2019 &raquo; <a href="/2019/06/07/reading-list">A reading list for software engineers</a>
+
+07 Jun 2019 &raquo; <a href="/2019/06/07/bitr-conf">Build IT Right Conference Notes</a>
+
 16 Feb 2019 &raquo; <a href="/2019/02/16/coop-leaving-feedback">Co-op Digital Leaving Feedback</a>
 
 15 Feb 2019 &raquo; <a href="/2019/02/15/helidox-build-log">Helidox build log</a>
@@ -132,7 +138,7 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 
 3 Mar 2015 &raquo; <a href="/2015/03/03/quick-zsh-mod">Showing Ruby Version in Agnoster Theme</a>
 
-9 Jan 2015 &raquo; <a href="/2015/01/09/2014-recap">2014 Recap</a> 
+9 Jan 2015 &raquo; <a href="/2015/01/09/2014-recap">2014 Recap</a>
 
 11 Dec 2014 &raquo; <a href="/2014/12/11/clojure-for-rubyists-overtone-for-awesomeness">Clojure for Rubyists, Overtone for Awesomeness</a>
 
@@ -165,10 +171,3 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 8 Nov 2012 &raquo; <a href="/2012/11/15/canvass-cms-and-what-it-means-for-my-next-project">Canvass CMS and what it means for my next project</a>
 
 1 Nov 2012 &raquo; <a href="/2012/11/15/the-new-lit-and-phil-website">The new Lit and Phil website</a>
-
-
-
-
-
-
-
