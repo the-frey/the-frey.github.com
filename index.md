@@ -10,6 +10,10 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 
 ## Posts:
 
+15 Jun 2020 &raquo; <a href="/2020/06/15/functional-serverless-typescript">Functional Serverless Typescript</a>
+
+15 Jun 2020 &raquo; <a href="/2020/06/15/issues-with-map-and-reduce-in-js">Issues with map and reduce in JS</a>
+
 07 Jun 2019 &raquo; <a href="/2019/06/07/serverless-clojurescript-workshop">Getting started with cljs and Serverless - Serverless Clojurescript Workshop</a>
 
 07 Jun 2019 &raquo; <a href="/2019/06/07/reading-list">A reading list for software engineers</a>
