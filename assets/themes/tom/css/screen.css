@@ -233,7 +233,8 @@ ul.posts {
     border: 1px solid #ddd;
     background-color: #333;
     color:#fafafa;
-    padding: 0 .4em;
+    padding: .4em;
+    line-height: 1;
   }
 
   #post ul,
