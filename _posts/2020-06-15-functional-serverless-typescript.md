@@ -320,3 +320,5 @@ const dbUserToCamelCase = (dbRowObj): CamelCaseUser => {
   return camelCaseVersion;
 };
 ```
+
+[Here's a link to the code as a Gist](https://gist.github.com/the-frey/f6a03711f3f811056166d0626c577491).
