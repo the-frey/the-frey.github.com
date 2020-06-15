@@ -83,6 +83,8 @@ A final interesting thing to note is that we use lambdas for supporting tasks, e
 
 The general code style is:
 
+- We _never_ use classes/typed objects in our own code
+  - Obviously, we have to use them when interacting with libraries and APIs written by others, but we close over them if possible
 - Pure functions wherever possible
 - `no-var` is set in our linting rules - `const` only
 - Where something is an object, we wrap method operations in a function: 
