@@ -10,6 +10,8 @@ Hello, my name is Alex and I'm a software engineer who mainly builds full-stack 
 
 ## Posts:
 
+27 Nov 2020 &raquo; <a href="/2020/11/27/fp-ts-and-do">fp-ts and Do</a>
+
 15 Jun 2020 &raquo; <a href="/2020/06/15/functional-serverless-typescript">Functional Serverless Typescript</a>
 
 15 Jun 2020 &raquo; <a href="/2020/06/15/issues-with-map-and-reduce-in-js">Issues with map and reduce in JS</a>
