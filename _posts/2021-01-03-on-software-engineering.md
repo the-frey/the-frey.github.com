@@ -22,4 +22,5 @@ Speaking of which - I've long been a fan of [Apprenticeship Patterns, by Adewale
 Given how rare it is to have the purpose afforded by a vocational job, I can't really understand why you wouldn't seek mastery in the end. The path to being a master craftsperson, like that of being an artist, requires study and practice, and it has clearly documented steps which can be followed. Many journeymen never achieve mastery, and I don't claim to presume that I will, but why not try to get there?
 
 [0] For a rejoinder, and excellent discussion that comes to the opposite conclusion, [see this article from Hillel Wayne](https://www.hillelwayne.com/post/crossover-project/are-we-really-engineers/).
-[1] Actually there are elements of both in the reality of engineering, but let's not get bogged down in that.
+
+[1] Actually there are elements of both in the reality of engineering, whether it's software or bridges, but let's not get bogged down in that.
